@@ -248,7 +248,7 @@ textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s 
     position: absolute;
     outline: 10px solid #0e0e0e46;
     bottom: -30px;
-    left: 47%;
+    left: calc(50% - 35px );
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -908,6 +908,7 @@ textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s 
     }
     .header__menu {
         width: 40px;
+        margin: 0;
     }
     .header__menu-body._active {
         left: 0;
@@ -1063,6 +1064,12 @@ textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s 
     }
     .build__card {
         margin: 0 0 10px 0;
+    }
+    .build__card-row img {
+        display: none;
+    }
+    .build__card-title {
+        text-align: center;
     }
 }
 @media(max-width:768px) {
